@@ -1,0 +1,9 @@
+function getJSON(){
+  //fetch JSON from textbox and beautify
+  var t = document.getElementById('textArea').value;
+  var beautified = JSON.parse(t);
+  document.getElementById('textArea').value = 'you have clicked the getJSOn button';
+
+}
+
+document.getElementById('button').onClick = getJSON(); 
