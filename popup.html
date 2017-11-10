@@ -1,16 +1,24 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title> JSON Beautifier </title>
-    </head>
-    <body>
+</head>
+<body>
 
-      <h3> <center> Paste the ugly JSON below </center> </h3>
-      <hr>
-    <textarea rows="10" cols="80" id="textArea" style="margin: 0px; height: 275px; width: 466px;"> </textarea>
-      <br>
-      <button type ="submit" align = "center" style = "width:470px;" id= 'button'>Beautify</button>
-      <script type="text/javascript" src= 'popup.js'></script>
-    </body>
-    </html>
+<h3>
+    <div style="text-align: center;"> Paste the ugly JSON below</div>
+</h3>
+<hr>
+<textarea rows="10" cols="80" id="textArea" style="margin: 0px; height: 275px; width: 466px;"> </textarea>
+<pre id="result">
+
+</pre>
+<br>
+<div>
+    <button type="submit" style="width:470px;" id='button'>Beautify</button>
+    <button type="submit" style="width:470px;" id='reverse'>Convert from JSON to String</button>
+</div>
+<script type="text/javascript" src='popup.js'></script>
+<!-- <script type= "text/javascript" src= 'scripts/jsonlint.js'></script> -->
+</body>
+</html>
