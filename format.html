@@ -15,10 +15,8 @@
 <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class = "mdl-layout__header">
         <div class = "mdl-layout__header-row">
-            <div class= 'mdl-layout-spacer'></div>
-            <span class= "mdl-layout-title">JSON Beautifier</span>
-            <div class= 'mdl-layout-spacer'></div>
-            <div class= 'mdl-layout-spacer'></div>
+            <!----Title---->
+            <span class= "mdl-layout-title"> JSON Beautifier></span>
         </div>
 
     </header>
@@ -27,12 +25,14 @@
 
 
 <textarea rows="10" cols="80" id="textArea" style="margin: 0px; height: 275px; width: 466px;"> </textarea>
+<pre id="result">
 
+</pre>
+<br>
 <div>
     <button class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent'
-            style="width:470px;" id='button'>Beautify String to JSON
+            style="width:470px;" id='button'>Beautify
     </button>
-    <br>
     <button class='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent'
             style="width:470px;" id='reverse'>Convert from JSON to String
     </button>
