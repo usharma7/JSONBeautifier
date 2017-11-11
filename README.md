@@ -1,2 +1,6 @@
 # JSONBeautifier
-Chrome extension created for Waterline Data to assist with in-place beautification of those ugly Solr JSON strings using Javascript and HTML 
+Chrome extension in HTML and JS to convert valid limited strings to JSON objects and vice versa 
+
+
+* Todo 
+- implement right click context conversions 
